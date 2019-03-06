@@ -26,6 +26,7 @@ public class Mercurytscucumberdemo
 	{
 		if(browsernm.equalsIgnoreCase("chrome"))
 		{
+			System.out.println("In openbrowser method");
 			System.setProperty("webdriver.chrome.driver","G:\\Selenium Setup\\setup1\\16122018\\chromedriver_win32 (14)\\chromedriver.exe");
 			Config.driver= new ChromeDriver();
 			System.out.println("Chrome browser is opened successfully");
